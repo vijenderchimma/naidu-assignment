@@ -1,0 +1,145 @@
+.main-container{
+    background-color: #ffffff;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line-container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.horizontal-line{
+    width: 200px;
+    color: black;
+    margin: 10px;
+    flex-grow: 1;
+}
+.main-para{
+    color: green;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.box-container{
+    border: 2px solid #d7dbd5;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box-card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-container-bg{
+    background-color: #f1f2f0;
+    border-color: lightgreen;
+}
+.radio-btn{
+    background-color: green;
+    border-color: green;
+    color: green;
+}
+
+.pair-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio{
+    margin-right: 20px;
+}
+.box-size-colour-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-size-colour-container2{
+    display: none;
+}
+
+.select-size-colour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.size-colour-para{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.size-colour-select-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.select-tag{
+    margin-left: 10px;
+}
+
+.para{
+    color: green
+}
+
+.discount{
+    text-decoration: line-through;
+    color: #d7dbd5;
+}
+
+.shipping-para-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-button{
+    width: 50%;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icon{
+    color: black;
+}
+
+.copy-right{
+    width: 50%;
+    text-align: end;
+}
